@@ -25,5 +25,7 @@ Copy and run in your terminal:
 - php
 - composer
 - volta
+- zsh
+- ohMyZsh
 
 I suggest use the **volta** to install node and yarn afterward.
