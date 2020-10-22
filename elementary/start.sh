@@ -31,7 +31,9 @@ curl https://get.volta.sh | bash
 printf "\n## Installing ZSH and  Oh My ZSH\n\n"
 
 sudo apt-get install zsh
+set +e
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+set -e
 
 printf "\n## Installation finished successfully\n\n"
 exit
