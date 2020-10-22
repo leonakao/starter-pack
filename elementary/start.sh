@@ -28,5 +28,10 @@ printf "\n## Installing Volta\n\n"
 
 curl https://get.volta.sh | bash
 
+printf "\n## Installing ZSH and  Oh My ZSH\n\n"
+
+sudo apt-get install zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 printf "\n## Installation finished successfully\n\n"
 exit
