@@ -35,5 +35,9 @@ set +e
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 set -e
 
+printf "\n## Installing Firacode\n\n"
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/leonakaodev/starter-pack/master/linux/firacode_installer.sh)"
+
 printf "\n## Installation finished successfully\n\n"
 exit

@@ -22,12 +22,4 @@ done
 echo "fc-cache -f"
 fc-cache -f
 
-if gsettings --help &> /dev/null then 
-	ACTUALLY_FONT=$(gsettings get org.gnome.desktop.interface monospace-font-name)
-	if [ "$ACTUALLY_FONT" = "'Ubuntu Mono 13'" ]; then
-		 gsettings set org.gnome.desktop.interface monospace-font-name 'Fira Code Medium 11'
-	fi
-else
-	echo "Parece que o gsettings não está instalado! Selecione usa fonte manualmente em"
-	echo "CTRL+ATL+T > Editar > Preferências > Marque fonte personalizada > Selecione Fira Code Medium"
-fi
+echo "CTRL+ATL+T > Editar > Preferências > Marque fonte personalizada > Selecione Fira Code Medium"

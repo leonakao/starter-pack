@@ -27,5 +27,6 @@ Copy and run in your terminal:
 - volta
 - zsh
 - ohMyZsh
+- Fira Code
 
 I suggest use the **volta** to install node and yarn afterward.
