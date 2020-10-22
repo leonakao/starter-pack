@@ -26,7 +26,7 @@ Copy and run in your terminal:
 - composer
 - volta
 - zsh
-- ohMyZsh
-- Fira Code
+- oh my zsh
+- fira code font
 
 I suggest use the **volta** to install node and yarn afterward.
