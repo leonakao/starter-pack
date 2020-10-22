@@ -6,11 +6,11 @@ This repo contains bash scripts to install default programs that I use on differ
 
 ### How to use
 
-```
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/leonakaodev/starter-pack/master/elementary/start.sh)"
-```
+Copy and run in your terminal:
 
-Copy and run in your terminal
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/leonakaodev/starter-pack/master/elementary/start.sh)"
+```
 
 ### Programs
 
