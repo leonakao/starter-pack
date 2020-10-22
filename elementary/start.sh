@@ -20,9 +20,9 @@ sudo snap install docker
 sudo snap install gh --edge
 sudo snap install node --classic
 
-printf "\n## Installing PHP and Composer\n\n"
+printf "\n## Installing PHP, Composer and Git\n\n"
 
-sudo apt install php composer
+sudo apt install php composer git
 
 printf "\n## Installing Volta\n\n"
 
